@@ -25,8 +25,7 @@ class ImagesPage extends StatelessWidget {
         child: Column(
           children: <Widget>[
             imageLoader.loadImage(
-              path:
-                  'https://dev.w3.org/SVG/tools/svgweb/samples/svg-files/atom.svg',
+              path: 'assets/images/acid.svg',
             ),
           ],
         ),
